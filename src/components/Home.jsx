@@ -1,6 +1,5 @@
 import Buttons from './common/Buttons';
-import Choose from './Choose';
-
+import Success from './success';
 import ChoosingDevslane from './ChoosingDevslane';
 function Home() {
 
@@ -14,6 +13,7 @@ function Home() {
                 </div>
             </div>
             <ChoosingDevslane />
+            <Success />
         </>
     )
 }
