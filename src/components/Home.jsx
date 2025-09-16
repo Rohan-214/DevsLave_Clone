@@ -1,6 +1,7 @@
 import Buttons from './common/Buttons';
 import Success from './success';
 import ChoosingDevslane from './ChoosingDevslane';
+import ServiceRoot from './serviceRoot';
 function Home() {
 
     return (
@@ -14,6 +15,7 @@ function Home() {
             </div>
             <ChoosingDevslane />
             <Success />
+            <ServiceRoot/>
         </>
     )
 }
