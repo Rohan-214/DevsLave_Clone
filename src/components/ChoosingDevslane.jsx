@@ -4,11 +4,12 @@ import { faMessage as fam } from '@fortawesome/free-regular-svg-icons/faMessage'
 import { faUser as fau } from '@fortawesome/free-regular-svg-icons';
 import { faBoltLightning as fal } from '@fortawesome/free-solid-svg-icons/faBoltLightning';
 import { faArrowAltCircleDown as fac } from '@fortawesome/free-regular-svg-icons';
+import Heading from "./common/Heading";
 function ChoosingDevslane() {
     return (
         <>
-            <div className='text-center text-5xl font-bold pt-20 '>Why Choose DevsLane?</div>
-            <div className='flex justify-center gap-1 pt-20 pb-20 flex-wrap'>
+            <Heading title="Why Choose DevsLane?" />
+            <div className='flex justify-center gap-1 pb-20 flex-wrap'>
                 <Choose rotate="rotate-[-5deg]"
                     icon={<FontAwesomeIcon icon={fam} />}
                     color="bg-purple-600"

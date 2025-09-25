@@ -4,6 +4,7 @@ import ChoosingDevslane from './ChoosingDevslane';
 import ServiceRoot from './serviceRoot';
 import Starting from './Starting';
 import Working from './Working';
+import IndustriesRoot from './IndustriesRoot';
 function Home() {
 
     return (
@@ -20,6 +21,7 @@ function Home() {
             <ServiceRoot/>
             <Starting />
             <Working/>
+            <IndustriesRoot/>
         </>
     )
 }

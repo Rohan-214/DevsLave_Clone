@@ -7,11 +7,12 @@ import image6 from "../assets/img6.webp";
 import image7 from "../assets/img7.webp";
 import image8 from "../assets/img8.webp";
 import Services from "./Services";
+import Heading from "./common/Heading";
 function ServiceRoot() {
     return (
         <div className="bg-gray-100">
-            <div className='text-center text-5xl  font-bold pt-20 '>Services we provide</div>
-            <div className="flex justify-center gap-2 pt-20 pb-20 flex-wrap ">
+            <Heading title="Services we provide" />
+            <div className="flex justify-center gap-2 pb-20 flex-wrap ">
                 <Services title={"Team Augmentation"}
                     discription={"Add experienced, vetted engineers to your team with transparent accountability and expertise tailored to your goals."}
                     key1={"Cultural fit"}

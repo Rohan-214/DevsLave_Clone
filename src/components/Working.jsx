@@ -1,3 +1,4 @@
+import Heading from "./common/Heading";
 import WorkingPart from "./WorkingPart";
 
 function Working() {
@@ -5,8 +6,8 @@ function Working() {
 
     return (
         <div className="bg-gray-100">
-            <div className="text-center text-5xl  font-bold pt-20  ">How it works</div>
-            <div className="flex flex-wrap justify-center gap-10 pt-20 pb-20">
+            <Heading title="How it works" />
+            <div className="flex flex-wrap justify-center gap-10  pb-20">
                 <WorkingPart
                     number="01"
                     title="Share Your Needs"
@@ -17,13 +18,13 @@ function Working() {
                     number="02"
                     title="Start Collaborating"
                     discription="Our engineers will work with your team for 2-weeks, fully dedicated to your goals and tasks."
-                    color="purple"
+                    color="green"
                 />
                 <WorkingPart
                     number="03"
                     title="Decide with Confidence"
                     discription="If we're a great fit, you can continue working with us. If not, no strings attached."
-                    color="purple"
+                    color="blue"
                 />
             </div>
         </div>
