@@ -4,7 +4,7 @@ function StoriesRoot() {
     return (
         <>
             <Heading title="Stories of Success" />
-            <div className="flex flex-col gap-5">                                                                                          
+            <div className="flex flex-col items-center justify-center gap-7 ">                                                                                         
                 <Story
                     link="https://www.aqai.io/"
                     name="/aqai.svg"
@@ -75,6 +75,7 @@ DevsLane's adaptability with our evolving needs has been instrumental in us achi
                     userDesignation="Co-founder at Relevvo"
                     color="bg-[#A9BFAB]"
                 />
+            <button className="text-xl bg-black text-white px-5 py-2 flex items-center justify-center rounded-md " >Discover All Success Stories</button>
             </div>
         </>
     )

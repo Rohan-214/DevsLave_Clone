@@ -4,7 +4,7 @@ function Story({link, name, discription, content, type, type2, image, userImage,
 
     return (
         <>
-            <div className="w-screen flex justify-center ">
+            
                 <div className= {`flex justify-center items-center w-2/3 p-7 rounded-3xl ${color}`}>
                     <div className="p-5 flex flex-col gap-5">
                         <a href= {link}>
@@ -33,7 +33,7 @@ function Story({link, name, discription, content, type, type2, image, userImage,
                     <img className={` ${type2 === "length" ? "w-120" : "w-1/2" } `}  src={image} alt="" />
                 </div>
                 
-            </div>
+    
         </>
     )
 
