@@ -6,7 +6,7 @@ import Industries from "./Industries";
 function IndustriesRoot() {
     return (
         <>
-            <div className="bg-gray-100">
+            <div >
                 <Heading title="Industries We Serve" />
                 <div className="flex justify-center gap-4 pb-20 flex-wrap ">
 

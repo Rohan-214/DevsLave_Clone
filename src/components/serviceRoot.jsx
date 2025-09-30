@@ -10,7 +10,7 @@ import Services from "./Services";
 import Heading from "./common/Heading";
 function ServiceRoot() {
     return (
-        <div className="bg-gray-100">
+        <div >
             <Heading title="Services we provide" />
             <div className="flex justify-center gap-2 pb-20 flex-wrap ">
                 <Services title={"Team Augmentation"}
