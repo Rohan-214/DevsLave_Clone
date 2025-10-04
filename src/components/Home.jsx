@@ -6,6 +6,7 @@ import Starting from './Starting';
 import Working from './Working';
 import IndustriesRoot from './IndustriesRoot';
 import StoriesRoot from './StoriesRoot';
+import Contact from './Contact';
 function Home() {
 
     return (
@@ -25,6 +26,7 @@ function Home() {
                 <Working />
                 <IndustriesRoot />
                 <StoriesRoot />
+                <Contact />
             </div>
         </>
     )
