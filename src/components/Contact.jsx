@@ -5,7 +5,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Contactlinks from "./contactlinks";
 function Contact() {
     return (
-        <div className="flex justify-center items-center pt-20 pb-10 ">
+        <div className="flex justify-center items-center pt-20 pb-20 ">
             <div className="flex  w-2/3 rounded-2xl    ">
                 <div className="flex flex-col gap-5 bg-blue-700 w-1/3 rounded-l-2xl  p-20">
                     <Contactlinks
@@ -22,6 +22,7 @@ function Contact() {
                         icon={<FontAwesomeIcon icon={faLinkedin} />}
                         text="LinkedIn"
                         content="Connect with us"
+                        link = "https://www.linkedin.com/company/devslane/posts/?feedView=all"
                     />
                     <div className="border border-gray-500 " ></div>
                     <div className="text-white text-lg font-semibold">We can't wait to hear from you!</div>
